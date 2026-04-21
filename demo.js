@@ -19,3 +19,16 @@ else{
 */
 let numbers = [1, 2, 3, 4, 5];
 console.log(numbers[3]);
+function add(a, b) {
+    return a + b;
+}
+function greet(name) {
+    console.log(`Helllo ${name}`);
+}
+console.log(add(89, 1));
+greet('Kishor');
+let user = {
+    name: "Kishor",
+    age: 22
+};
+console.log(user);
